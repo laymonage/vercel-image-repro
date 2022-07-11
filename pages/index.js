@@ -63,6 +63,36 @@ export default function Home() {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Test 1{' '}
+          <span className={styles.logo}>
+            <Image src="/vercel+test1.svg" alt="Vercel Logo" width={72} height={16} />
+          </span>
+        </a>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Test 2{' '}
+          <span className={styles.logo}>
+            <Image src="/vercel-test2.svg" alt="Vercel Logo" width={72} height={16} />
+          </span>
+        </a>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Test 3{' '}
+          <span className={styles.logo}>
+            <Image src="/vercel_test3.svg" alt="Vercel Logo" width={72} height={16} />
+          </span>
+        </a>
       </footer>
     </div>
   )
